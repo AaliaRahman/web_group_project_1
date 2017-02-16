@@ -1,7 +1,148 @@
 body {
-  margin: 0;
+}
+h1 {
+  font-family: 'PT Sans Narrow',sans-serif;
+  font-size: 1.875em;
+  color: #323232;
+  margin-top: 80px;
+  margin-bottom: 45px:
+  text-align:center;
+}
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.5em;
+  color: #00897f;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
 
+h3 {
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+}
+p{
+  font-family: 'PT Serif', serif;
+  font-size:.875em;
+  line-height: 1.75em;
+  color: #323232;
+}
+
+a {
+  font-family: 'PT Serif',serif;
+  font-size: 1em;
+  color: #f26522;
+  font-weight: bold;
+}
+nav {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav h1{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.5em;
+  color: #323232;
+  display: inline-block;
+  float: left;
+  max-width: 20%;
+  margin-top: 2%;
+  padding-left: 2%;
+}
+nav ul {
+  float: right;
+  max-width: 80%;
+  margin-top: 2%;
+}
+nav ul li{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2em;
+  color: #323232;
+  float: left;
+  margin-right: 30px;
+}
+
+.splash{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.main img{
+  width: 250px;
+  border-radius: 50%;
+}
+.main h1{
+  text-align: center;
+}
+.gray{
+  background-color: #eeeeee;
+  padding: 30px;
+  width: 32%;
+  float: left;
+  margin: 5%;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+  float: left;
+}
+.images img{
+  margin: 0px 30px;
+  float: left;
+  margin-bottom: 3em;
+}
+
+.git {
+  background-color: #eeeeee;
+  padding: 30px;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.git h1 {
+  margin-top: 0px;
+  text-align: center;
+
+}
+.white {
+  padding: 30px;
+  background-color: white;
+  display: inline-block;
+  margin: 0 5%;
+  width: 32%;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #00897f;
+  text-align: center;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 2px;
+}
+
+footer h1{
+  color: #eeeeee;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
