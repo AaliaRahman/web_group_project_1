@@ -1,4 +1,6 @@
+
 body {
+  text-align: center;
 }
 h1 {
   font-family: 'PT Sans Narrow',sans-serif;
@@ -21,12 +23,14 @@ h3 {
   font-size: 1em;
   line-height: 2em;
   color: #323232;
+  text-align: left;
 }
 p{
   font-family: 'PT Serif', serif;
   font-size:.875em;
   line-height: 1.75em;
   color: #323232;
+  text-align: left;
 }
 
 a {
@@ -65,9 +69,46 @@ nav ul li{
 }
 
 .splash{
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.mobileCat {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 40%;
+  bottom: 0;
+  width: 20%;
+  z-index: 2;
+}
+.splash h1{
+  margin-left: 20%;
+  margin-right: auto;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  top: 20%;
+  text-align: left;
+
+}
+.Purr{
+  font-size: 3em;
+  font-style: italic;
+}
+.right {
+  text-align: right;
+}
+.mobileBackground{
+  z-index: -1;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
 }
 
 .main {
@@ -144,10 +185,61 @@ footer h1{
   color: #eeeeee;
 }
 
-/* On devices wider than 660px */
+
+/* On devices wider than 660px. I assume Tablet devices*/
 @media(min-width: 660px) {
 }
 
 /* On devices wider than 940px */
-@media(min-width: 940px) {
+@media(max-width: 939px) {
+
+}
+
+/* On devices not as wide as 660px. I assume for mobile devices*/
+@media(max-width: 659px) {
+header{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+  nav h1 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 100%;
+  }
+  nav ul{
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    float: none;
+}
+.desktopSplash{
+  display: none;
+}
+.mobileCat{
+  position: absolute;
+  top: 22%;
+}
+.images img{
+  text-align: center;
+  width: 80%;
+}
+h1 {
+  display: block;
+}
+.gray {
+      float: none;
+      width: 80%;
+  }
+.white {
+  width: 60%;
+}
+
+img {
+  width: 100%;
+}
+
+
 }
